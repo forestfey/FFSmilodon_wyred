@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- ====== SMILODON PATCH FOR A DOG SAID ====== -->
+
+<Patch>
+
+	<!-- Add Recipes to InjuryHeal -->
+   <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+   </Operation>
+   
+   <!-- Add Recipes to Recpies_Surgery -->
+   <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallScytherBladeAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallPowerClawAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal"]/recipeUsers</xpath>
+      <value>
+       <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticLegAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicLegAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallEarAnimalBionic"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallJawAnimalSimple"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalSimple"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
+      <value>
+         <li>SmilodonPop</li>
+      </value>
+   </Operation>
+  
+</Patch>
