@@ -4,7 +4,7 @@
   
 		<name>FF_Smilodon_wyred</name>  
 		<author>forestfey</author>
- 	        <targetVersion>0.16.1393</targetVersion>
+ 	        <targetVersion>0.17.0</targetVersion>
 		<description>Adds surgery options from A Dog Said to Smilodon Populator. Load after those mods.</description>
 	
 </ModMetaData>
