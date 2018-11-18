@@ -20,12 +20,6 @@
       </value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-	  <xpath>/Defs/RecipeDef[defName = "InstallScytherBladeAnimal"]/recipeUsers</xpath>
-      <value>
-         <li>SmilodonPop</li>
-      </value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
 	  <xpath>/Defs/RecipeDef[defName = "InstallPowerClawAnimal"]/recipeUsers</xpath>
       <value>
          <li>SmilodonPop</li>
