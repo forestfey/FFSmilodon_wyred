@@ -5,8 +5,9 @@
 		<name>FF_Smilodon_wyred</name>  
 		<author>forestfey</author>
  	        <supportedVersions>
-		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+<packageId>forestfey.SmilodonWyred</packageId>
 		<description>Adds surgery options from A Dog Said to Smilodon Populator. Load after those mods.</description>
 	
 </ModMetaData>
